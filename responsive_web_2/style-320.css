@@ -1,0 +1,68 @@
+@media(max-width: 320px) {
+    body {
+        background-color: orange;
+    }
+
+    /* Header Area */
+
+    .header_area .main_menu .navbar {
+        padding: 1.2rem 0rem !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* brand area */
+
+    .brand-area .first-row .col-md-6 {
+        padding: 1rem;
+    }
+
+    /* brand area */
+
+    .site-main .brand-area .experience-area .years-area .bg-panel {
+        position: absolute;
+        left: -280px;
+        top: 0px;
+        background-color: lightblue;
+        width: 280px;
+        height: 380px;
+        margin-left: 340px;
+        z-index: -1;
+        }
+    
+        .site-main .brand-area .experience-area .years-area {
+            background: url(images/dot-square.jpg) no-repeat -40px -29px;
+            padding: 2rem 0rem;
+            width: 2%;
+            height: auto;
+            padding-left: 5rem;
+            position: relative;
+            margin-bottom: 10%;
+        }
+
+        /* project-area */
+
+        .project-area .title-h1 {
+            font: normal bold 30px / 30px 'roboto';
+        }
+        
+        /* Input area */
+
+        .input-area .input-title h3 {
+            font-size: 20px;
+        }
+
+        .input-area .input-title p {
+            font-size: 16px;
+        }
+
+        /* footer */
+
+        .footer p {
+            font: normal 600 16px / 17px 'roboto';
+            text-align: center;
+            margin: 1rem 1rem;
+        }
+    
+}

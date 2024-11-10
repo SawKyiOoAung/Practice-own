@@ -1,0 +1,142 @@
+@media(max-width: 426px) {
+    body {
+        background-color: yellow;
+    }
+
+    /* Header-area */
+
+    .header_area .main_menu .navbar {
+        padding: 1.2rem 1rem !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* brand area */
+
+    .site-main .brand-area .experience-area .years-area .bg-panel {
+    position: absolute;
+    left: -280px;
+    top: 0px;
+    background-color: lightblue;
+    width: 280px;
+    height: 380px;
+    margin-left: 340px;
+    z-index: -1;
+    }
+
+    .site-main .brand-area .experience-area .years-area {
+        background: url(images/dot-square.jpg) no-repeat -40px -29px;
+        padding: 2rem 0rem;
+        width: 2%;
+        height: auto;
+        padding-left: 5rem;
+        position: relative;
+        margin-bottom: 10%;
+    }
+
+    /* service-area */
+
+    .site-main .service-area {
+        padding: 4rem 1rem;
+    }
+
+    .service-area .services-list .row .col-sm-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Project area */
+
+    .project-area .title-h1 {
+        font: normal bold 30px / 30px 'roboto';
+    }
+
+    .site-main .project-area {
+        padding: 4rem 0rem;
+        margin: 0 4rem;
+    }
+
+    .site-main .project-area .project-title {
+        padding: 0 !important;
+        font-size: 16px;
+    }
+
+    .site-main .project-area .button-group button {
+        background: transparent;
+        border: none;
+        font: normal 500 16px / 50px 'roboto';
+        text-transform: uppercase;
+        padding-right: 1rem;
+    }
+
+    /* Client area */
+
+    .client-area .client .client-img { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .client-area .client {
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Input-area */
+
+    .input-area {
+        background: var(--gradient-color);
+        margin: 3rem 2rem;
+        padding: 5rem 1rem;
+    }
+
+    .input-area .user-input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-area .user-input input {
+        padding: 0.3rem 0.7rem;
+        background: none;
+        border: 1px solid rgba(245, 245, 245, 0.667);
+        width: 15rem;
+        margin-right: 0.5rem;
+    }
+
+    .input-area .user-input label {
+        background-color: rgb(245, 245, 245);
+        color: rgba(97, 92, 92, 0.811);
+        padding: 0.45rem 0.5rem;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .input-title .circle {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        font-size: 30px;
+    }
+
+    .input-title .circle2 {
+        position: absolute;
+        top: -2rem;
+        left: 3rem;
+        color: rgba(255, 255, 255, 0.641);
+        font-size: 10px;
+    }
+
+    /* footer */
+
+    .footer p {
+        font: normal 600 16px / 17px 'roboto';
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+}

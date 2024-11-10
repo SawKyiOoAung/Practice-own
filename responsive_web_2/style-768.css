@@ -1,0 +1,172 @@
+/* Responsive */
+@media(max-width: 768px) {
+    body {
+        box-sizing: border-box;
+        background-color: blue;
+    }
+
+    /* Header-area */
+
+    .header_area .main_menu .navbar {
+        padding: 1.2rem 3rem !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header_area {
+        margin: 0 auto;
+        width: 100vw;
+    }
+
+    .site-banner .container .row .col-md-12:nth-of-type(2) {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    /* About-area */
+
+    .about-area .row .col-md-6:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-area .about-title .paragraph {
+        font: normal 500 16px/23px 'roboto';
+    }
+
+    .site-main .brand-area {
+        padding: 1rem 5rem;
+    }
+
+    /* Brand Area */
+
+    .brand-area .row .col-md-12:nth-of-type(2) {
+        margin-top: 5rem;
+    }
+
+    .brand-area .first-row .col-md-6 {
+        padding: 3rem;
+    }
+
+    .site-main .brand-area .experience-area .years-area .years {
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 35px;
+        color: var(--primary-color2);
+        z-index: 2;
+    }
+
+    .fa-phone {
+        font-size: 40px;
+    }
+
+    .call-now a {
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    /* Service Area */
+
+    .site-main .service-area {
+        padding: 4rem 5rem;
+    }
+
+    .site-main .service-area .service-title {
+        padding: 0 5rem;
+    }
+
+    .site-main .service-area .services {
+        background: rgba(246, 244, 244, 0.882);
+        padding: 2rem 0;
+        width: 16rem;
+        margin: 1rem .5rem;
+        transition: all .7s ease;
+    }
+
+    /* Project-Area */
+
+
+    .site-main .project-area {
+        padding: 4rem 0rem;
+        margin: 0 4rem;
+    }
+
+    .site-main .project-area .project-title {
+        padding: 0 !important;
+    }
+
+    .site-main .project-area .button-group button {
+        background: transparent;
+        border: none;
+        font: normal 500 16px/80px 'roboto';
+        text-transform: uppercase;
+        padding-right: 1rem;
+    }
+
+    .site-main .project-area .grid .our-project .title h4 {
+        font: normal 700 17px/8px 'roboto';
+   }
+
+   .project-area .img {
+    width: 16rem;
+    margin: 0;
+    padding: 0;
+    }
+
+    /* Client Area */
+
+    .client-area {
+        padding: 0 3rem;
+        margin: 0 auto;
+    }
+
+    .client-area .about-title p {
+        padding: 1rem 1rem;
+    }
+
+
+    .client-area .carousel {
+        position: relative;
+        Padding: 0;
+    }
+
+    .client-area .client .about-client h4 {
+        font: normal 500 20px/21px 'roboto';
+        margin: 1rem 0rem;
+        text-align: center;
+    }
+
+    .client-area .client .about-client p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* Input-area */
+
+    .input-area {
+        background: var(--gradient-color);
+        margin: 3rem 5rem;
+        padding: 5rem 3rem;
+    }
+
+    .input-title .circle {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        font-size: 35px;
+    }
+
+    .input-title .circle2 {
+        position: absolute;
+        top: -2rem;
+        left: 3rem;
+        color: rgba(255, 255, 255, 0.641);
+        font-size: 14px;
+    }
+
+    /* Yes, you did it ! */
+    
+}

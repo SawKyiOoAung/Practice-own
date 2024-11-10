@@ -1,0 +1,118 @@
+@media(max-width: 1024px) {
+    body {
+        background-color: red;
+    }
+
+       /* Header-area */
+
+       .header_area .main_menu .navbar {
+        padding: 1.2rem 3rem !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* About-area */
+
+    .about-area .row .col-md-6:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .site-main .brand-area {
+        padding: 1rem 13rem;
+    }
+
+    .brand-area .row .col-md-12:nth-of-type(2) {
+        margin-top: 3rem;
+    }
+
+    /* Service Area */
+
+    .site-main .service-area {
+        padding: 4rem 2rem;
+    }
+
+    .site-main .service-area .service-title {
+        padding: 0 3rem;
+    }
+
+    .site-main .service-area .services {
+        background: rgba(246, 244, 244, 0.882);
+        padding: 2rem 0;
+        width: 12rem;
+        margin: 1rem .5rem;
+        transition: all .7s ease;
+    }
+
+    /* Project-area */
+
+    .site-main .project-area {
+        padding: 4rem 0rem 0rem;
+        margin: 0 12rem;
+    }
+
+    .site-main .project-area .button-group button {
+        background: transparent;
+        border: none;
+        font: normal 500 18px / 80px 'roboto';
+        text-transform: uppercase;
+        padding-right: 2.5rem;
+    }
+
+    .site-main .project-area .grid .our-project .title h4 {
+        font: normal 700 20px/10px 'roboto';
+    }
+
+    .project-area .img {
+        width: 12rem;
+        margin: 0rem;
+        padding: 0;
+    }
+
+     /* Client Area */
+
+     .client-area {
+        padding: 0 3rem;
+        margin: 0 auto;
+    }
+
+    .client-area .about-title p {
+        padding: 1rem 5rem;
+    }
+
+    .client-area .carousel {
+        position: relative;
+        Padding: 0;
+    }
+    
+    .client-img {
+        text-align: center;
+    }
+
+    .client-area .client .client-img {
+        padding: 2rem;
+        width: 10rem;
+    }
+
+    .client-area .client .about-client h4 {
+        font: normal 500 20px/21px 'roboto';
+        margin: 1rem 0rem;
+        text-align: center;
+    }
+
+    .client-area .client .about-client p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* Input Area */
+
+    .input-area {
+        background: var(--gradient-color);
+        margin: 3rem 5rem;
+        padding: 8rem 6rem;
+    }
+
+}
