@@ -1,7 +1,4 @@
 @media(max-width: 426px) {
-    body {
-        background-color: yellow;
-    }
 
     /* Header-area */
 
@@ -17,12 +14,12 @@
 
     .site-main .brand-area .experience-area .years-area .bg-panel {
     position: absolute;
-    left: -280px;
+    left: -25px;
     top: 0px;
     background-color: lightblue;
     width: 280px;
-    height: 380px;
-    margin-left: 340px;
+    height: 350px;
+    margin-left: 21px;
     z-index: -1;
     }
 
@@ -31,9 +28,14 @@
         padding: 2rem 0rem;
         width: 2%;
         height: auto;
-        padding-left: 5rem;
+        padding-left: -2rem;
         position: relative;
         margin-bottom: 10%;
+    }
+
+    .site-main .brand-area .experience-area .call-area {
+        padding-left: 3rem;
+        padding-top: 2rem;
     }
 
     /* service-area */
@@ -51,8 +53,9 @@
     /* Project area */
 
     .project-area .title-h1 {
-        font: normal bold 30px / 30px 'roboto';
+        font: normal bold 28px / 27px 'roboto';
     }
+    
 
     .site-main .project-area {
         padding: 4rem 0rem;

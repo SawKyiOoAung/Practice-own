@@ -1,7 +1,4 @@
 @media(max-width: 320px) {
-    body {
-        background-color: orange;
-    }
 
     /* Header Area */
 
@@ -22,12 +19,12 @@
 
     .site-main .brand-area .experience-area .years-area .bg-panel {
         position: absolute;
-        left: -280px;
+        left: -25rem;
         top: 0px;
         background-color: lightblue;
         width: 280px;
-        height: 380px;
-        margin-left: 340px;
+        height: 350px;
+        margin-left: 21rem;
         z-index: -1;
         }
     
@@ -36,18 +33,43 @@
             padding: 2rem 0rem;
             width: 2%;
             height: auto;
-            padding-left: 5rem;
+            padding-left: -2rem;
             position: relative;
             margin-bottom: 10%;
+        }
+
+        .site-main .brand-area .experience-area .call-area {
+            padding-left: 3rem;
+            padding-top: 2rem;
         }
 
         /* project-area */
 
         .project-area .title-h1 {
-            font: normal bold 30px / 30px 'roboto';
+            font: normal bold 26px / 20px 'roboto';
+        }
+
+        .project-area .img {
+            width: 14rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        .site-main .project-area .button-group button {
+            background: transparent;
+            border: none;
+            font: normal 500 14px/50px 'roboto';
+            text-transform: uppercase;
+            padding-right: 0.5rem;
         }
         
         /* Input area */
+
+        .input-area {
+            background: var(--gradient-color);
+            margin: 3rem 0.5rem;
+            padding: 4rem 0rem;
+        }
 
         .input-area .input-title h3 {
             font-size: 20px;
